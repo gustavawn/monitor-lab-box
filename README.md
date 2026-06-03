@@ -1,8 +1,8 @@
 # Monitor in a Box!
 
-This repository provides an automated kickstart environment to deploy a complete monitoring stack using **Zabbix 7.0 LTS**, **PostgreSQL 16**, and **Grafana**. 
+This repository provides an automated kickstart environment to deploy a complete monitoring stack using **Zabbix 7.0 LTS**, **PostgreSQL 16**, and **Grafana**.
 
-This project was specifically designed for **educational purposes**, providing a fast, reliable, and pre-configured **Monitoring Lab** on **Ubuntu 24.04 LTS**.
+*This project was inspired by and based on the original containers repository by Professor Evandro José Zipf (NOTO TI) [https://github.com/josezipf/containers]. The base structure was adapted to replace MySQL with PostgreSQL and update the Grafana image to the latest release.*
 
 ## 🛠️ Tech Stack
 
@@ -21,7 +21,17 @@ This project was specifically designed for **educational purposes**, providing a
 ## 🚀 How to Use
 
 ### Prerequisites
+
 You need a fresh installation of **Ubuntu 24.04 LTS** with `sudo` privileges.
+
+### Access
+
+| Service | Default Port | Default Credentials |
+|---------|--------------|---------------------|
+| Zabbix  | 8080         | U: Admin            |
+|---------|--------------| P: zabbix           |
+| Grafana | 3000         | U: admin            |
+|---------|--------------| P: admin            |
 
 ### Installation
 
