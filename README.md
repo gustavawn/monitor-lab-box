@@ -2,7 +2,7 @@
 
 This repository provides an automated kickstart environment to deploy a complete monitoring stack using **Zabbix 7.0 LTS**, **PostgreSQL 16**, and **Grafana**.
 
-*This project was inspired by and based on the original containers repository by Professor Evandro José Zipf (NOTO TI) [https://github.com/josezipf/containers]. The base structure was adapted to replace MySQL with PostgreSQL and update the Grafana image to the latest release.*
+*This project was inspired by and based on the original "containers" repository by Professor Evandro José Zipf (NOTO TI) [https://github.com/josezipf/containers]. The base structure was adapted to replace MySQL with PostgreSQL and update the Grafana image to the latest release.*
 
 ## 🛠️ Tech Stack
 
