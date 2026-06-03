@@ -27,7 +27,7 @@ docker compose version
 COMPOSE_FILE="noc/docker-compose.yml"
 
 if [ -f "$COMPOSE_FILE" ]; then
-    docker compose -f "$COMPOSE_FILE" up -d
+    sudo docker compose -f "$COMPOSE_FILE" up -d
 else
     echo "$COMPOSE_FILE not found!"
 fi
